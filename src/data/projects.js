@@ -1,0 +1,58 @@
+// Edit this file to change what appears on the project index.
+// Set `image` to a path inside /public (e.g. "/shots/ar-app.jpg") to replace
+// the generated cover art with a real screenshot.
+export const projects = [
+  {
+    slug: "ar-tree-species",
+    title: "TREES",
+    name: "AR Tree Species Reference",
+    year: "2026",
+    kind: "Capstone",
+    stack: ["Unity", "AR Foundation", "Android"],
+    summary:
+      "A markerless augmented reality Android app for learning endangered tree species in Mindanao. Point the camera at open ground and place a tree to study it up close.",
+    repo: "https://github.com/your-username/ar-tree-species",
+    demo: "#",
+    hue: 140,
+    image: null,
+  },
+  {
+    slug: "accordion",
+    title: "ACCORDION",
+    name: "GSAP Accordion",
+    year: "2026",
+    kind: "Q1 mini project",
+    stack: ["React", "GSAP"],
+    summary: "An accordion whose panels open and close with timeline-driven easing.",
+    repo: "https://github.com/your-username/accordion",
+    demo: "#",
+    hue: 28,
+    image: null,
+  },
+  {
+    slug: "text-reveal",
+    title: "REVEAL",
+    name: "Text Reveal",
+    year: "2026",
+    kind: "Q1 mini project",
+    stack: ["React", "GSAP", "ScrollTrigger"],
+    summary: "Headlines that reveal line by line as they scroll into view.",
+    repo: "https://github.com/your-username/text-reveal",
+    demo: "#",
+    hue: 210,
+    image: null,
+  },
+  {
+    slug: "custom-cursor",
+    title: "CURSOR",
+    name: "Custom Cursor",
+    year: "2026",
+    kind: "Q1 mini project",
+    stack: ["React", "GSAP", "CSS"],
+    summary: "A cursor that follows the pointer with lag and grows over links.",
+    repo: "https://github.com/your-username/custom-cursor",
+    demo: "#",
+    hue: 330,
+    image: null,
+  },
+];
